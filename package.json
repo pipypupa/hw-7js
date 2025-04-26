@@ -19,6 +19,7 @@
     "parcel-transformer-hbs": "^1.0.4"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "handlebars": "^4.7.8"
   }
 }
