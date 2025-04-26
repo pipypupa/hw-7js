@@ -1,0 +1,22 @@
+{
+  "name": "hw-7js",
+  "version": "1.0.0",
+  "description": "hw-7js",
+  "scripts": {
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --no-cache --public-url /hw-7js",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.14.4",
+    "parcel-transformer-handlebars": "^1.0.0",
+    "parcel-transformer-hbs": "^1.0.4"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8"
+  }
+}
