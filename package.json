@@ -2,7 +2,7 @@
   "name": "hw-7js",
   "version": "1.0.0",
   "description": "hw-7js",
-  "homepage": "",
+  "homepage": "https://pipypupa.github.io/hw-7js/",
   "scripts": {
     "start": "npx parcel src/index.html",
     "build": "parcel build src/index.html --no-cache --public-url /hw-7js",
